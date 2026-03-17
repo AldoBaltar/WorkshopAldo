@@ -16,7 +16,7 @@ class Calculadora:
         base = int(input('Digite a operação desejada: '))
         x = float(input('Digite um numero: '))
         y = float(input('Digite outro numero: '))
-        print(f'A {soma} de {x} e {y}')
+        print(f'A {op} de {x} e {y}')
 
     def soma(self):
         print(self.num1 +  self.num2)
